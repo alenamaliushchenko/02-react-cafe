@@ -6,6 +6,7 @@ import VoteStats from '../VoteStats/VoteStats';
 import Notification from '../Notification/Notification';
 import type { Votes, VoteType } from '../../types/votes';
 
+
 const App: React.FC = () => {
   const [votes, setVotes] = useState<Votes>({
     good: 0,
